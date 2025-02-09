@@ -1,0 +1,7 @@
+tunnel: 514e459f-471f-49b3-96e8-e771e51b58e6
+credentials-file: C:\Users\DELL\.cloudflared\514e459f-471f-49b3-96e8-e771e51b58e6.json
+
+ingress:
+  - hostname: ai.netonline.work
+    service: http://localhost:8080
+  - service: http_status:404
